@@ -1,0 +1,42 @@
+[
+  {
+    "title": "More",
+    "artist": "Pinkd Floyd",
+    "price": 3700,
+    "img": "https://img.discogs.com/38Nb81o7ZhBn57G5p4rVTde_Py0=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-963218-1209931592.jpeg.jpg",
+    "Stock": 6,
+    "id": "e338f4cb-af56-46a8-81a0-b3926234dab4"
+  },
+  {
+    "title": "The Wall",
+    "artist": "Pink Floyd",
+    "price": 5500,
+    "img": "https://img.discogs.com/SuRgwqAVdmrb3MGAkUSy8tsOAMg=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-8961614-1516182987-6786.png.jpg",
+    "Stock": 3,
+    "id": "10d204b5-0e8c-4097-a9bf-d692cb7f1216"
+  },
+  {
+    "title": "Moonmadness",
+    "artist": "Camel",
+    "price": 3500,
+    "img": "https://img.discogs.com/38Nb81o7ZhBn57G5p4rVTde_Py0=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-963218-1209931592.jpeg.jpg",
+    "Stock": 5,
+    "id": "38677fdf-d2c8-4887-af47-82b8bf487531"
+  },
+  {
+    "title": "Clics Modernos",
+    "artist": "Charly Garcia",
+    "price": "3523",
+    "img": "https://img.discogs.com/l074AqtYIf1Knh7YVThUes0_E-I=/fit-in/600x577/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2667157-1479599899-5430.jpeg.jpg",
+    "Stock": 3,
+    "id": "1d6f92e6-2e43-4f6d-b4b1-f2e4db11a65d"
+  },
+  {
+    "title": "Little Girl Blue",
+    "artist": "Nina Simone",
+    "price": "4500",
+    "img": "https://img.discogs.com/DwGKZI7BwlBXv1yaj8ndavCu4NU=/fit-in/600x613/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2097507-1585810663-4238.jpeg.jpg",
+    "Stock": 3,
+    "id": "42acefee-4d41-45d7-b5e9-25709a4f3e83"
+  }
+]
