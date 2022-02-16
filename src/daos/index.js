@@ -1,7 +1,8 @@
 let productsDao;
 let cartsDao;
+let usersDao;
 
-let persis = "firebase";
+let persis = "mongodb";
 
 switch (persis) {
     case 'json' :
@@ -14,9 +15,11 @@ switch (persis) {
     case 'mongodb':
         const { default: ProductosDaoMongo } = await import('./productos/productosDaosMongo.js');
         const { default: CartDaoMongo } = await import('./carts/cartsDaosMongo.js');
+        const { default: UserDaoMongo } = await import('./users/usersDaosMongo.js');
 
         productsDao = new ProductosDaoMongo();
         cartsDao = new CartDaoMongo();
+        usersDao = new UserDaoMongo();
         break;
     case 'firebase' :
         const { default: ProductosDaosFirebase } = await import('./productos/productosDaosFirebase.js');
@@ -27,4 +30,4 @@ switch (persis) {
         break;
 };
 
-export { productsDao, cartsDao };
+export { productsDao, cartsDao, usersDao };

@@ -1,0 +1,14 @@
+[2022-02-15T14:45:25.689] [WARN] warnFile - { url: '/api//...', method: 'GET', status: 404, error: 'Not found' }
+[2022-02-15T14:56:03.417] [WARN] warnFile - { url: '/api//...', method: 'GET', status: 404, error: 'Not found' }
+[2022-02-15T15:24:59.344] [WARN] warnFile - { url: '/api//...', method: 'GET', status: 404, error: 'Not found' }[2022-02-16T17:14:45.794] [WARN] warnFile - {
+  url: '/api//15875460_10154279295031347_7341530505191211724_o.jpg',
+  method: 'GET',
+  status: 404,
+  error: 'Not found'
+}
+[2022-02-16T18:07:07.936] [WARN] warnFile - {
+  url: '/api//uploads',
+  method: 'GET',
+  status: 404,
+  error: 'Not found'
+}

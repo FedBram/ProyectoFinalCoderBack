@@ -1,9 +1,11 @@
+import dotenv from 'dotenv';
+dotenv.config();
 export default {
     fs: {
         path: './DB'
     },
     mongodb: {
-        cnxStr: 'mongodb://127.0.0.1:27017/ecommerce',
+        cnxStr: `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASS}@cluster0.mtgsl.mongodb.net/ecommerce?retryWrites=true&w=majority`,
         options: {
             serverSelectionTimeoutMS: 5000,
         }

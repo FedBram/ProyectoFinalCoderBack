@@ -1,0 +1,6 @@
+[2022-02-14T22:22:22.659] [ERROR] errorFile - {
+  url: '/api/productos',
+  method: 'GET',
+  status: 401,
+  error: 'Unauthorized'
+}

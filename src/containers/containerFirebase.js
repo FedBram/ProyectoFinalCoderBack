@@ -1,7 +1,7 @@
 import admin from "firebase-admin"
 import config from '../config.js'
 import { v4 as uuidv4 } from 'uuid';
-import timeStamp from "../timeStamp.js";
+import timeStamp from "../util/timeStamp.js";
 
 admin.initializeApp({
     credential: admin.credential.cert(config.firebase)

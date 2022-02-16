@@ -1,0 +1,129 @@
+<div class="container-fluid container-sm row">
+  <h1>Registro de Usuarios</h1>
+  <form action="/register" enctype="multipart/form-data" method="post">
+    <div class="mb-3">
+      <label for="email" class="form-label">Ingrese su Email</label>
+      <input type="text" name="email" class="form-control" required/>
+    </div>
+    <div class="mb-3">
+      <label for="password" class="form-label">Ingrese su contraseña</label>
+      <input type="password" name="password" class="form-control" required/>
+    </div>
+    <div class="mb-3">
+      <label for="name" class="form-label">Ingrese su nombre</label>
+      <input type="text" name="name" class="form-control" required/>
+    </div>
+    <div class="mb-3">
+      <label for="age" class="form-label">Ingrese su edad</label>
+      <input type="text" name="age" class="form-control" required/>
+    </div>
+    <div class="mb-3">
+      <label for="adress" class="form-label">Ingrese su dirección</label>
+      <input type="text" name="adress" class="form-control" required/>
+    </div>
+    <div class="mb-3">
+      <label for="img" class="form-label">Cargue un foto para su avatar</label>
+      <input type="file" name="img" class="form-control" required/>
+    </div>
+    <div class="form-group">
+      <label for="phone" class="form-label">Ingrese su número telefonico</label> 
+      <select name="cod" required>
+          <option disabled selected>Codigo internacional</option>
+          <option value="+1907">Alaska +1907</option>
+          <option value="+355">Albania +355</option>
+          <option value="+49">Alemania +49</option>
+          <option value="+376">Andorra +376</option>
+          <option value="+54">Argentina +54</option>
+          <option value="+61">Australia +61</option>
+          <option value="+43">Austria +43</option>
+          <option value="+61">Australia +61</option>
+          <option value="+43">Austria +43</option>
+          <option value="+32">Bélgica +32</option>
+          <option value="+591">Bolivia +591</option>
+          <option value="+387">Bosnia +387</option>
+          <option value="+55">Brasil +55</option>
+          <option value="+359">Bulgaria +359</option>
+          <option value="+1">Canadá +1</option>
+          <option value="+420">Checa Rep. +420</option>
+          <option value="+56">Chile +56 </option>
+          <option value="+86">China +86 </option>
+          <option value="+357">Chipre +357 </option>
+          <option value="+57">Colombia +57</option>
+          <option value="+506">Costa Rica +506</option>
+          <option value="+385">Croacia +385</option>
+          <option value="+53">Cuba +53</option>
+          <option value="+45">Dinamarca +45</option>
+          <option value="+1809">Dominicana Rep. +1809</option>
+          <option value="+593">Ecuador +593</option>
+          <option value="+20">Egipto +20 </option>
+          <option value="+503">El Salvador +503 </option>
+          <option value="+421">Eslovaca Rep. +421</option>
+          <option value="+386">Eslovenia +386</option>
+          <option value="+34">España +34</option>
+          <option value="+1">Estados Unidos +1</option>
+          <option value="+372">Estonia +372</option>
+          <option value="+358">Finlandia +358</option>
+          <option value="+33">Francia +33 </option>
+          <option value="+9567">Gibraltar +9567 </option>
+          <option value="+30">Grecia +30</option>
+          <option value="+299">Groenlandia +299 </option>
+          <option value="+502">Guatemala +502</option>
+          <option value="+509">Haití +509 </option>
+          <option value="+1808">Hawai +1808 </option>
+          <option value="+504">Honduras +504 </option>
+          <option value="+852">Hong Kong +852</option>
+          <option value="+36">Hungría +36</option>
+          <option value="+91">India +91 </option>
+          <option value="+353">Irlanda +353</option>
+          <option value="+354">Islandia +354</option>
+          <option value="+972">Israel +972</option>
+          <option value="+39">Italia +39</option>
+          <option value="+1876">Jamaica +1876 </option>
+          <option value="+81">Japón +81</option>
+          <option value="+962">Jordania +962 </option>
+          <option value="+371">Letonia +371 </option>
+          <option value="+231">Liberia +231 </option>
+          <option value="+41">Liechtenstein +41</option>
+          <option value="+370">Lituania +370</option>
+          <option value="+352">Luxemburgo +352</option>
+          <option value="+356">Malta +356</option>
+          <option value="+212">Marruecos +212</option>
+          <option value="+596">Martinica +596</option>
+          <option value="+52">México +52</option>
+          <option value="+373">Moldavia +373</option>
+          <option value="+377">Mónaco +377</option>
+          <option value="+258">Mozambique +258</option>
+          <option value="+505">Nicaragua +505</option>
+          <option value="+47">Noruega +47</option>
+          <option value="+64">Nueva Zelanda +64</option>
+          <option value="+31">Países Bajos +31</option>
+          <option value="+92">Pakistán +92</option>
+          <option value="+507">Panamá +507</option>
+          <option value="+595">Paraguay +595</option>
+          <option value="+51">Perú +51</option>
+          <option value="+48">Polonia +48</option>
+          <option value="+351">Portugal +351</option>
+          <option value="+1787">Puerto Rico +1787</option>
+          <option value="+44">Reino Unido +44</option>
+          <option value="+40">Rumania +40</option>
+          <option value="+7">Rusia +7</option>
+          <option value="+378">San Marino +378</option>
+          <option value="+65">Singapur +65</option>
+          <option value="+27">Sudáfrica +27</option>
+          <option value="+46">Suecia +46</option>
+          <option value="+41">Suiza +41</option>
+          <option value="+66">Tailandia +66</option>
+          <option value="+886">Taiwan +886</option>
+          <option value="+216">Túnez +216</option>
+          <option value="+90">Turquía +90</option>
+          <option value="+380">Ucrania +380</option>
+          <option value="+598">Uruguay +598</option>
+          <option value="+58">Venezuela +58</option>
+          <option value="+381">Yugoslavia +381</option>
+      </select>    
+      <input type="phone" name="phone" placeholder="Codigo de area y numero telefonico" required/>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+  <a href="/login">Ir a Login</a>
+</div>

@@ -1,7 +1,7 @@
 import { promises as fs } from 'fs';
 import { v4 as uuidv4 } from 'uuid';
 import config from "../config.js";
-import timeStamp from "../timeStamp.js";
+import timeStamp from "../util/timeStamp.js";
 
 
 class ContenedorFs {
