@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 export default {
     fs: {
-        path: './DB'
+        path: './src/DB'
     },
     mongodb: {
         cnxStr: `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASS}@cluster0.mtgsl.mongodb.net/ecommerce?retryWrites=true&w=majority`,

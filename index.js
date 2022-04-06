@@ -2,9 +2,9 @@
 
 import express from 'express'
 
-import { router as productRoutes} from "./routes/productos.js"
-import {router as cartRoutes} from "./routes/cart.js";
-import { router as usersRoutes } from './routes/auth.js';
+import { router as productRoutes} from "./src/routes/productos.js"
+import {router as cartRoutes} from "./src/routes/cart.js";
+import { router as usersRoutes } from './src/routes/users.js';
 
 import { engine } from 'express-handlebars';
 
@@ -21,7 +21,7 @@ import {
     loggerError as loggerError
 } from './src/util/logger.js'
 
-import ParsedArgs from './processargv.js'
+import ParsedArgs from './src/configs/processargv.js'
 
 
 //------------------------------ VARIABLES ------------------------------//
@@ -44,14 +44,14 @@ app.use(express.static('./public'))
 
 //------------------------ CONFIG DE PLANTILLA -----------------------//
 
-app.set("views", "./views")
+app.set("views", "./src/views")
 app.set("view engine", "hbs")
 
 app.engine(
     "hbs",
     engine({
         extname: "hbs",
-        layoutsDir: './views/layouts',
+        layoutsDir: './src/views/layouts',
         defaultLayout: "index",
         runtimeOptions: {
             allowProtoPropertiesByDefault: true,

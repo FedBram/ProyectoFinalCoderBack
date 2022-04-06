@@ -5,10 +5,5 @@
   method: 'GET',
   status: 404,
   error: 'Not found'
-}
-[2022-02-16T18:07:07.936] [WARN] warnFile - {
-  url: '/api//uploads',
-  method: 'GET',
-  status: 404,
-  error: 'Not found'
-}
+}[2022-04-06T15:08:08.539] [WARN] warnFile - { url: '/favicon.ico', method: 'GET', status: 404, error: 'Not found' }
+[2022-04-06T15:51:55.869] [WARN] warnFile - { url: '/productos', method: 'POST', status: 404, error: 'Not found' }

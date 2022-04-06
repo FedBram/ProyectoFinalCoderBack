@@ -1,0 +1,22 @@
+[
+  {
+    "email": "aaa@aaa.com",
+    "password": "$2a$10$.qNO7JzGOuin8/l5D9n.0ekUc7YFXhu3U4mcDik3wlvtS96foezLu",
+    "name": "Alma",
+    "age": "32",
+    "adress": "Calle 1234",
+    "phone": "+5401140561870",
+    "img": "Archivo Adjunto (1).jpg",
+    "id": "ff882e63-5b0b-43d8-bb93-f5b4c79f8f7d"
+  },
+  {
+    "email": "admin@admin.com",
+    "password": "$2a$10$HV4uG7YSE9CurAo8TcXtKOluDTywmf8glTxxbULbgWTFjnyVY/m/y",
+    "name": "Admin",
+    "age": "32",
+    "adress": "aaaaa",
+    "phone": "+54111111",
+    "img": "cfeadc6d0babcfae02411aef43cd8acb.jpg",
+    "id": "287288db-c8b1-4454-bc00-20b8e6963494"
+  }
+]

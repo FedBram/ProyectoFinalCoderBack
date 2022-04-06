@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
 import config from '../config.js';
-import timeStamp from "../util/timeStamp.js";
+import timeStamp from "../../util/timeStamp.js";
+
 
 await mongoose.connect(config.mongodb.cnxStr, config.mongodb.options);
 

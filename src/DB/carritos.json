@@ -1,0 +1,17 @@
+[
+  {
+    "timeStamp": "6-4-2022 15:10:19",
+    "productos": [
+      {
+        "title": "More",
+        "artist": "Pinkd Floyd",
+        "price": 3700,
+        "img": "https://img.discogs.com/38Nb81o7ZhBn57G5p4rVTde_Py0=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-963218-1209931592.jpeg.jpg",
+        "Stock": 6,
+        "id": "e338f4cb-af56-46a8-81a0-b3926234dab4",
+        "tiemStamp": "6-4-2022 15:10:19"
+      }
+    ],
+    "id": "64c8e502-477f-4db6-be2a-a9b0d4790e6f"
+  }
+]

@@ -4,3 +4,29 @@
   status: 401,
   error: 'Unauthorized'
 }
+[2022-04-06T14:43:14.269] [ERROR] errorFile - {
+  url: '/carrito/620bfa61d2548d2ba3bed35a/productos/1121',
+  method: 'POST',
+  status: 401,
+  error: 'Unauthorized'
+}
+[2022-04-06T15:27:10.910] [ERROR] errorFile - {
+  url: '/productos/admin',
+  method: 'GET',
+  status: 401,
+  error: 'Unauthorized'
+}
+[2022-04-06T15:27:52.670] [ERROR] errorFile - { url: '/login', method: 'POST', status: 403, error: 'Wrong password' }
+[2022-04-06T15:32:17.456] [ERROR] errorFile - {
+  url: '/productos/admin',
+  method: 'GET',
+  status: 401,
+  error: 'Unauthorized'
+}
+[2022-04-06T15:51:14.537] [ERROR] errorFile - { url: '/login', method: 'POST', status: 403, error: 'User not found' }
+[2022-04-06T15:52:08.882] [ERROR] errorFile - {
+  url: '/productos/admin',
+  method: 'GET',
+  status: 401,
+  error: 'Unauthorized'
+}
