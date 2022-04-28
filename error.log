@@ -30,3 +30,5 @@
   status: 401,
   error: 'Unauthorized'
 }
+[2022-04-28T19:49:37.143] [ERROR] errorFile - { url: '/login', method: 'POST', status: 403, error: 'Wrong password' }
+[2022-04-28T19:49:53.570] [ERROR] errorFile - { url: '/login', method: 'POST', status: 403, error: 'Wrong password' }

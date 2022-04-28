@@ -1,8 +1,11 @@
+import dotenv from 'dotenv';
+dotenv.config();
+
 let productsDao;
 let cartsDao;
 let usersDao;
 
-let persis = "mongodb";
+let persis = `${process.env.DB}`;
 
 switch (persis) {
     case 'json' :
